@@ -11,8 +11,9 @@
       <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
       <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 </head>
-<body>
-  <section id="menu">
+
+<body> 
+    <section id="menu">
          <div class="container">
             <div class="menu-area">
                <?php include('../navbar.php') ?>

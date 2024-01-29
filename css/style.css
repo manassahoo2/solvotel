@@ -25,8 +25,8 @@ a {
 
 a:hover,
 a:focus {
-  outline: none;
-  text-decoration: none;
+  outline: active;
+  text-decoration: active;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -58,7 +58,7 @@ img {
   transition: 0.5s;
 }
 .aa-primary-btn:hover, .aa-primary-btn:focus {
-  text-decoration: none;
+  text-decoration: active;
 }
 .aa-primary-btn span {
   margin-right: 5px;
@@ -81,7 +81,7 @@ img {
   transition: 0.5s;
 }
 .aa-secondary-btn:hover, .aa-secondary-btn:focus {
-  text-decoration: none;
+  text-decoration: active;
   color: #fff;
 }
 
@@ -4145,4 +4145,43 @@ img {
     padding: 5px 2px;
   }
 }
+    .panel {
+        margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+    }
 
+    .panel-heading {
+        background-color: #f5f5f5;
+        padding: 10px;
+        font-weight: bold;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .panel-body {
+        padding: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 8px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-top: 5px;
+    }
+
+    .help-block {
+        color: #a94442;
+        margin-top: 5px;
+        font-size: 12px;
+    }
